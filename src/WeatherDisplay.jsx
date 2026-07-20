@@ -11,7 +11,7 @@ return (
     <p>
       Temperature:{" "}
       <span style={{color: tempColour}}>
-        {weather.temprature}
+        {weather.temperature}
         </span>  
     </p>
     <p>
