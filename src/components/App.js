@@ -3,7 +3,7 @@ import WeatherDisplay from './WeatherDisplay'
 
 function App() {
 const [weather, setWeather] = useState({
-  temprature:25,
+  temperature:25,
   condition: "sunny",
 });
 
