@@ -15,7 +15,7 @@ return (
         </span>  
     </p>
     <p>
-      condition: {weather.condition}  
+      Conditions: {weather.Conditions}  
     </p>
     </div>
 );
