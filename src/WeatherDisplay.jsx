@@ -1,5 +1,5 @@
 
-import react from 'react'
+import React from 'react'
 
 function WeatherDisplay({weather}) {
 const tempColour = weather.temperature > 20 ? "red" : "blue";
