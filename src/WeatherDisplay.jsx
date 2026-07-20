@@ -2,14 +2,14 @@
 import react from 'react'
 
 function WeatherDisplay({weather}) {
-const tempColour = weather.temprature > 20 ? "red" : "blue";
+const tempColour = weather.temperature > 20 ? "red" : "blue";
 
 
 return (
 
     <div>
     <p>
-      Temprature:{" "}
+      Temperature:{" "}
       <span style={{color: tempColour}}>
         {weather.temprature}
         </span>  
